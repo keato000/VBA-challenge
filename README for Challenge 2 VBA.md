@@ -1,7 +1,19 @@
 # VBA-challenge
 Challenge #2 - writing VBA macros to analyze generated stock market data
 
-I created a VBA script/macro to analyze generated stock market data for three year's worth of data.  Below is the VBA code from my Excel workbook listed in plain text:
+I created a VBA script/macro to analyze generated stock market data for three year's worth of data.  I created a script that loops through all the stocks for one year and outputs the following information:
+
+  * The ticker symbol.
+
+  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+  * The total stock volume of the stock.
+
+In adddition, I made sure to use conditional formatting to highlight positive change in green and negative change in red.  
+
+Below is the VBA code from my Excel workbook listed in plain text:
 
 Sub StockDataMacro()
     
