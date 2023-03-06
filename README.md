@@ -1,7 +1,7 @@
 # VBA-challenge
 Challenge #2 - writing VBA macros to analyze generated stock market data
 
-I creaed a VBA script/macro to analyze generated stock market data for three year's worth of data.  Here is my VBA code in plain text:
+I created a VBA script/macro to analyze generated stock market data for three year's worth of data.  Below is the VBA code from my Excel workbook listed in plain text:
 
 Sub StockDataMacro()
     
